@@ -6,3 +6,7 @@
                  user:
                        name: ankit
                        state: present
+                - name: install the httpd package 
+                  yum:
+                        name: httpd
+                        state: present
